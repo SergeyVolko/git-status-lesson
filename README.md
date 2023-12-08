@@ -22,7 +22,7 @@
 
 ```mermaid
 graph LR;
-  untracked[untracked(неотслеживаемый)] -- "git add" --> staged;
+  A[untracked(неотслеживаемый)] -- "git add" --> staged;
   staged    -- "???"     --> tracked/comitted;
 
 %% стрелка без текста для примера: 
