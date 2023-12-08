@@ -20,3 +20,12 @@
 -Все хеши, а также таблицу соответствий *bash хеш → информация о коммите* Git<br>
 хранит в папке .git.
 
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+``` 
+
